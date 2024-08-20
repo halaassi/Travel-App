@@ -44,12 +44,14 @@ Before running the app, ensure you have the following:
     ```bash
     cd Travel-App
     ```
-3. **Build Commands**:
+3. **Install dependencies**:
+`npm install`
+4. **Build Commands**:
 - **`npm run build-prod`**: Build the application for production. This creates a minified and optimized build suitable for deployment.
 - **`npm run build-dev`**: Build the application for development. This includes unminified code and source maps for easier debugging.
-4.  **Start Command** .
+5.  **Start Command** .
 - **`npm run start`**: Start the application. This command runs the development server and opens the application for local development.
-5.  **Test Command** .
+6.  **Test Command** .
 - **`npm run start`**: Test the application. This command runs the test suite for  application.
 
 ## Usage
