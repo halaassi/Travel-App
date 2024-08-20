@@ -45,7 +45,10 @@ Before running the app, ensure you have the following:
     cd Travel-App
     ```
 3. **Install dependencies**:
-`npm install`
+   ```bash
+       npm install
+
+    ```
 4. **Build Commands**:
 - **`npm run build-prod`**: Build the application for production. This creates a minified and optimized build suitable for deployment.
 - **`npm run build-dev`**: Build the application for development. This includes unminified code and source maps for easier debugging.
