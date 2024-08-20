@@ -49,6 +49,8 @@ Before running the app, ensure you have the following:
 - **`npm run build-dev`**: Build the application for development. This includes unminified code and source maps for easier debugging.
 4.  **Start Command** .
 - **`npm run start`**: Start the application. This command runs the development server and opens the application for local development.
+4.  **Test Command** .
+- **`npm run start`**: Test the application. This command runs the test suite for  application.
 
 ## Usage
 
