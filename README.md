@@ -47,7 +47,7 @@ Before running the app, ensure you have the following:
 3. **Build Commands**:
 - **`npm run build-prod`**: Build the application for production. This creates a minified and optimized build suitable for deployment.
 - **`npm run build-dev`**: Build the application for development. This includes unminified code and source maps for easier debugging.
-4.  ** Start Command** .
+4.  **Start Command** .
 - **`npm run start`**: Start the application. This command runs the development server and opens the application for local development.
 
 ## Usage
