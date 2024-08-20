@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel App</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Travel App</h1>
+        <main>
+            <div class="content-wrapper">
+                <div class="form-section">
+                    <!-- Input fields -->
+                    <div class="form-group">
+                        <label for="city">Enter City:</label>
+                        <input type="text" id="city" name="city" placeholder="Enter city name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date-input">Select Trip Date:</label>
+                        <input type="date" id="date-input" name="trip-date">
+                    </div>
+                    
+                    <!-- Add destination button -->
+                    <button id="add-destination">Add Destination</button>
+
+                    <!-- Generate button -->
+                    <button id="generate">Generate Trip Info</button>
+                </div>
+                <div class="results-section">
+                    <!-- Destinations container -->
+                    <div id="destinations"></div>
+
+                    <!-- Display Results -->
+                    <div id="results"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/src/client/js/app.js" type="module"></script>
+</body>
+</html>
+
+

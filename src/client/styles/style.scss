@@ -1,0 +1,135 @@
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E8E7E5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+
+#app {
+    background-color: #E1DCCF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px; 
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 20px; 
+}
+
+/* Form Section */
+.form-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #DACEC4;
+    background-color: #E8E5DE;
+    font-size: 16px;
+}
+
+/* Button Styles */
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #AA8C72;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #AA703C;
+}
+
+/* Results Section */
+.results-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#destinations, #results {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #E8E5DE;
+    border-radius: 4px;
+    border: 1px solid #DACEC4;
+}
+
+#results {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #E8E5DE;
+    color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.result-item {
+    display: grid;
+    grid-template-columns: 100px auto;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.resized-image {
+    width: 170%; 
+    height: auto;
+    object-fit: cover;
+}
+
+.result-details {
+    display: flex;
+    flex-direction: column;
+}
+.expired-trip {
+    color: rgb(253, 1, 1);
+    text-decoration: line-through;
+}
+
+.upcoming-trip {
+    color: rgb(48, 132, 45);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content-wrapper {
+        grid-template-columns: 1fr; /* Stack columns on small screens */
+    }
+}
