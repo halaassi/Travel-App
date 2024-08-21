@@ -46,7 +46,7 @@ Before running the app, ensure you have the following:
     ```
 3. **Install dependencies**:
    ```bash
-       npm install
+       npm install v20.16.0
 
     ```
 4. **Build Commands**:
