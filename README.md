@@ -1,3 +1,4 @@
+submission note below 
 ## Overview
 
 The Trip Planner App is a web application that allows users to plan and manage their upcoming trips. Users can add multiple destinations with specific dates, view weather forecasts for their planned trips, and see images of the locations. 
@@ -55,7 +56,7 @@ Before running the app, ensure you have the following:
 5.  **Start Command** .
 - **`npm run start`**: Start the application. This command runs the development server and opens the application for local development.
 6.  **Test Command** .
-- **`npm run start`**: Test the application. This command runs the test suite for  application.
+- **`npm run test`**: Test the application. This command runs the test suite for  application.
 
 ## Usage
 
@@ -72,3 +73,23 @@ Before running the app, ensure you have the following:
 ---
 
 *Developed by [Hala Assi ].*
+#####Note 
+  ```bash
+     npm run build-prod
+
+  ```
+
+This problem does not appear to me when I run
+
+```bash
+     npm run build-prod
+
+ ```
+
+
+![Screen Shot 2024-08-22 at 10 57 39 AM](https://github.com/user-attachments/assets/50178ee0-94c0-4ead-bc94-cebb805941d6)
+
+
+
+
+
