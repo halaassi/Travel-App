@@ -73,9 +73,10 @@ Before running the app, ensure you have the following:
 ---
 
 *Developed by [Hala Assi ].*
+
 #####Note 
   ```bash
-     npm run build-prod
+Error: ENOENT: no such file or directory, stat 'C:\Users\user\w\ta\project\src\server\dist\index.html'
 
   ```
 
